@@ -259,16 +259,6 @@ namespace RedCorners.ExifLibrary
         {
             Save(stream, true);
         }
-
-        /// <summary>
-        /// Returns a System.Drawing.Image created with image data.
-        /// </summary>
-        public override Image ToImage()
-        {
-            MemoryStream stream = new MemoryStream();
-            Save(stream);
-            return Image.FromStream(stream);
-        }
         #endregion
 
         #region Private Helper Methods

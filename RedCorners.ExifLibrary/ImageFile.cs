@@ -54,12 +54,6 @@ namespace RedCorners.ExifLibrary
 
 		#region Instance Methods
 		/// <summary>
-		/// Converts the <see cref="ImageFile"/> to a <see cref="System.Drawing.Image"/>.
-		/// </summary>
-		/// <returns>Returns a <see cref="System.Drawing.Image"/> containing image data.</returns>
-		public abstract Image ToImage ();
-
-		/// <summary>
 		/// Saves the <see cref="ImageFile"/> to the specified file.
 		/// </summary>
 		/// <param name="filename">A string that contains the name of the file.</param>

@@ -41,9 +41,6 @@
     <Reference Include="RedCorners, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\RedCorners.4.0.0\lib\netstandard2.0\RedCorners.dll</HintPath>
     </Reference>
-    <Reference Include="RedCorners.ExifLibrary, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\RedCorners.ExifLibrary.1.0.0\lib\netstandard2.0\RedCorners.ExifLibrary.dll</HintPath>
-    </Reference>
     <Reference Include="RedCorners.Forms, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\RedCorners.Forms.4.0.0\lib\netstandard2.0\RedCorners.Forms.dll</HintPath>
     </Reference>
@@ -125,6 +122,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RedCorners.ExifLibrary\RedCorners.ExifLibrary.csproj">
+      <Project>{623f271c-ed27-4651-98ba-c7281aa7d2a8}</Project>
+      <Name>RedCorners.ExifLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

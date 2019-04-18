@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>RedCorners.ExifLibrary</id>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <title>RedCorners.ExifLibrary</title>
     <authors>Saeed Afshari and NeatCapital OÜ</authors>
     <owners>NeatCapital OÜ</owners>
@@ -16,8 +16,6 @@
 
     <dependencies>
       <group targetFramework="netstandard2.0">
-        <dependency id="System.Drawing.Common" version="4.5.1" />
-        <dependency id="System.Drawing.Primitives" version="4.3.0" />
       </group>
     </dependencies>
 
