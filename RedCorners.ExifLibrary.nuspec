@@ -6,7 +6,7 @@
     <title>RedCorners.ExifLibrary</title>
     <authors>Saeed Afshari and NeatCapital OÜ</authors>
     <owners>NeatCapital OÜ</owners>
-    <projectUrl>http://redcorners.com</projectUrl>
+    <projectUrl>https://github.com/saeedafshari/RedCorners.ExifLibrary</projectUrl>
     <iconUrl>http://ooze.redcorners.com/redcorners_exif_logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Easy reading and writing GPS coordinates. RedCorners.ExifLibrary allows you to read and modify EXIF properties of image files. This project is a .NET Standard port of ExifLibrary by oozcitak.</description>
