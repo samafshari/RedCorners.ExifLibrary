@@ -269,3 +269,4 @@ packages_/
 bower_components/
 /packages/
 /RedCorners.ExifLibrary.1.0.0.nupkg
+*.nupkg

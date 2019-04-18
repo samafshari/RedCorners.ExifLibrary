@@ -1,3 +1,6 @@
+# NuGet
+[https://www.nuget.org/packages/RedCorners.ExifLibrary](https://www.nuget.org/packages/RedCorners.ExifLibrary)
+
 # RedCorners.ExifLibrary
 RedCorners.ExifLibrary is a .NET Standard port of [ExifLibrary](https://github.com/oozcitak/exiflibrary) by oozcitak. The original project can be found [here](https://code.google.com/archive/p/exiflibrary/), which is under [MIT License](https://opensource.org/licenses/mit-license.php).
 
