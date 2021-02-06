@@ -40,8 +40,8 @@ namespace RedCorners.ExifLibrary
             var objLat = GPSLatitudeLongitude.FromFloat(Math.Abs((float)latitude));
             var objLng = GPSLatitudeLongitude.FromFloat(Math.Abs((float)longitude));
 
-            file.Properties.Set(ExifTag.GPSLatitude, objLat.d, objLat.m, objLat.s);
-            file.Properties.Set(ExifTag.GPSLongitude, objLng.d, objLng.m, objLng.s);
+            file.Properties.Set(new GPSLatitudeLongitude(ExifTag.GPSLatitude, objLat.d, objLat.m, objLat.s));
+            file.Properties.Set(new GPSLatitudeLongitude(ExifTag.GPSLongitude, objLng.d, objLng.m, objLng.s));
             file.Properties.Set(ExifTag.GPSLatitudeRef, latitudeRef);
             file.Properties.Set(ExifTag.GPSLongitudeRef, longitudeRef);
         }

@@ -189,6 +189,19 @@ namespace RedCorners.ExifLibrary
 				items.Remove (key);
 			items.Add (key, new ExifURationalArray (key, new MathEx.UFraction32[] { new MathEx.UFraction32 (d), new MathEx.UFraction32 (m), new MathEx.UFraction32 (s) }));
 		}
+
+        /// <summary>
+        /// Sets the <see cref="ExifLibrary.ExifProperty"/> with the specified key.
+        /// </summary>
+        /// <param name="c">Coordinate</param>
+        public void Set(GPSLatitudeLongitude c)
+        {
+            if (items.ContainsKey(c.Tag))
+                items.Remove(c.Tag);
+
+            items.Add(c.Tag, c);
+        }
+
 		#endregion
 
 		#region Instance Methods
